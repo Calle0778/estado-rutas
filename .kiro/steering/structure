@@ -1,0 +1,9 @@
+# Stack técnico
+- Node.js 22 o superior, TypeScript estricto en todo el repo.
+- backend: Express 5, Vitest + Supertest. Datos simulados en JSON, cargados en memoria detrás de una interfaz BusRepository.
+- mfe-rutas: React 19 + Vite + @module-federation/vite. Expone ./EstadoRutas.
+- shell: React 19 + Vite + @module-federation/vite como host.
+- Configuración por variables de entorno: PORT, CORS_ORIGIN, VITE_API_URL, VITE_RUTAS_URL, BASE_PATH.
+- Commits: Conventional Commits (feat:, fix:, chore:, test:, docs:).
+- Sistema operativo del desarrollador: Windows con PowerShell.
+- No agregar dependencias fuera de este listado sin preguntar.
